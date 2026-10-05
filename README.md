@@ -22,3 +22,10 @@ Students and freshers apply to dozens of jobs without knowing:
 - Why is my resume getting rejected?
 
 Most resume tools give a vague score. This project gives **answers you can act on**.
+
+## ✨ What It Does
+
+| Feature | Description |
+|---|---|
+| 📄 **Resume parsing** | Reads PDF, DOCX, and TXT resumes |
+| 🧾 **Job description parsing** | Extracts required skills from any pasted JD |
