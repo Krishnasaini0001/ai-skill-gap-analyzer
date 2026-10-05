@@ -62,3 +62,17 @@ flowchart TD
 - **Provider-agnostic LLM layer:** swap OpenAI-compatible providers without touching business logic.
 - **Explainable first:** the match score comes from transparent rules and embeddings, not a black-box prompt. The LLM is used for *explaining and recommending*, not for inventing the score.
 - **Config via environment variables:** no secrets in code.
+
+## 🧰 Tech Stack
+
+| Layer | Tools |
+|---|---|
+| Backend | Python 3.12+, FastAPI, Pydantic, SQLAlchemy, Alembic |
+| Database | SQLite (development) → PostgreSQL + pgvector (production) |
+| NLP / ML | spaCy, sentence-transformers, scikit-learn |
+| Documents | PyMuPDF, python-docx |
+| Auth | JWT, bcrypt password hashing |
+| LLM | Provider abstraction (OpenAI-compatible) |
+| Frontend | HTML, CSS, JavaScript (React-migration friendly) |
+| DevOps | Docker, Docker Compose |
+| Testing | pytest, httpx |
