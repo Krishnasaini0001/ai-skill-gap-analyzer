@@ -167,3 +167,11 @@ EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 | POST | `/interview/start` | Start a mock interview | 🔜 |
 | POST | `/chat` | Ask the AI career assistant | 🔜 |
 | GET | `/reports/{id}` | Export a career-gap report | 🔜 |
+
+## 🧮 How the Match Score Works *(planned design)*
+
+1. Extract skills from the resume and from the job description.
+2. Normalize them (`"py"`, `"python3"` → `Python`).
+3. Compare using embeddings so related skills get **partial** credit.
+4. Weight each required skill by importance (must-have vs nice-to-have).
+5. Return a score **with a breakdown**: which skills matched, which partially matched, and which are missing.
