@@ -182,3 +182,11 @@ EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 - JWT tokens expire and are verified on every protected route.
 - Secrets live in `.env`, which is git-ignored.
 - Change `SECRET_KEY` to a long random value before any real deployment.
+
+## 🗺️ Roadmap Beyond v1
+
+- OCR for scanned resumes
+- React frontend
+- Resume rewriting suggestions
+- Multi-language support
+- Cloud deployment guide
