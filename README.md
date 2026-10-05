@@ -175,3 +175,10 @@ EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 3. Compare using embeddings so related skills get **partial** credit.
 4. Weight each required skill by importance (must-have vs nice-to-have).
 5. Return a score **with a breakdown**: which skills matched, which partially matched, and which are missing.
+
+## 🔐 Security Notes
+
+- Passwords are hashed with bcrypt, never stored in plain text.
+- JWT tokens expire and are verified on every protected route.
+- Secrets live in `.env`, which is git-ignored.
+- Change `SECRET_KEY` to a long random value before any real deployment.
