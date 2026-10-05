@@ -9,3 +9,16 @@ An AI-powered career intelligence platform that compares a candidate's resume ag
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.x-D71F00)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-pgvector-4169E1?logo=postgresql&logoColor=white)
 ![Status](https://img.shields.io/badge/status-in%20development-orange)
+
+---
+
+## 🤔 The Problem
+
+Students and freshers apply to dozens of jobs without knowing:
+
+- What skills do I already have?
+- What does this job actually require?
+- What am I missing, and what should I learn **first**?
+- Why is my resume getting rejected?
+
+Most resume tools give a vague score. This project gives **answers you can act on**.
