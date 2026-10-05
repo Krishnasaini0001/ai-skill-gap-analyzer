@@ -190,3 +190,7 @@ EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 - Resume rewriting suggestions
 - Multi-language support
 - Cloud deployment guide
+
+## 🤝 Contributing
+
+Ideas and pull requests are welcome. Open an issue first to discuss larger changes.
