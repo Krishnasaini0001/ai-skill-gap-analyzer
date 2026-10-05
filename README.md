@@ -194,3 +194,7 @@ EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 ## 🤝 Contributing
 
 Ideas and pull requests are welcome. Open an issue first to discuss larger changes.
+
+## 📄 License
+
+MIT License. See `LICENSE` for details.
