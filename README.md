@@ -147,3 +147,7 @@ LLM_API_KEY=
 LLM_MODEL=
 EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 ```
+
+> For PostgreSQL, change `DATABASE_URL` to
+> `postgresql+psycopg://user:password@localhost:5432/dbname`
+> and run `docker compose up -d db` to start the pgvector database.
