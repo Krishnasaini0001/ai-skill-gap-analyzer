@@ -111,3 +111,28 @@ ai-skill-gap-analyzer/
 ├── requirements.txt
 └── .env.example
 ```
+
+## 🚀 Getting Started (Windows / PowerShell)
+
+**Prerequisites:** Python 3.12+, Git, VS Code (optional)
+
+```powershell
+# 1. Clone
+git clone https://github.com/<your-username>/ai-skill-gap-analyzer.git
+cd ai-skill-gap-analyzer
+
+# 2. Create and activate a virtual environment
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Configure environment
+copy .env.example .env
+
+# 5. Run the app
+uvicorn app.main:app --reload
+```
+
+Open **http://127.0.0.1:8000/docs** for the interactive API documentation.
