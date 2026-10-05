@@ -76,3 +76,16 @@ flowchart TD
 | Frontend | HTML, CSS, JavaScript (React-migration friendly) |
 | DevOps | Docker, Docker Compose |
 | Testing | pytest, httpx |
+
+## 🚦 Project Status
+
+- [x] **Phase 0:** Project setup, config, FastAPI skeleton
+- [x] **Phase 1:** Users, JWT authentication (register / login / me)
+- [ ] **Phase 2:** Resume upload and text extraction (PDF, DOCX, TXT)
+- [ ] **Phase 3:** Skill extraction and normalization
+- [ ] **Phase 4:** Job description parsing and semantic matching
+- [ ] **Phase 5:** Gap analysis and explainable match score
+- [ ] **Phase 6:** LLM client, roadmap, project and interview generation
+- [ ] **Phase 7:** RAG with vector search and career chat
+- [ ] **Phase 8:** Frontend dashboard and report export
+- [ ] **Phase 9:** Tests, logging, Docker, deployment
