@@ -35,3 +35,6 @@ Most resume tools give a vague score. This project gives **answers you can act o
 | 🗺️ **Learning roadmap** | AI-generated, prioritized plan for closing the gaps |
 | 🛠️ **Project recommendations** | Portfolio projects that target your missing skills |
 | 🎤 **Interview practice** | Role-specific questions, mock interviews, and AI feedback |
+| 💬 **AI career assistant** | RAG-powered chat over a career/learning knowledge base |
+| 📈 **Progress tracking** | History of past analyses and improvement over time |
+| 📑 **Report export** | Download a final career-gap report |
