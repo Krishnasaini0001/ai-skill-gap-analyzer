@@ -202,5 +202,5 @@ MIT License. See `LICENSE` for details.
 ## 👤 Author
 
 **<KRISHNA SAINI>**
-[GitHub]([https://github.com/Krishnasaini0001]) · [LinkedIn](https://www.linkedin.com/in/krishna-saini-b07a2b294/?isSelfProfile=true)
+[GitHub](https://github.com/Krishnasaini0001) · [LinkedIn](https://www.linkedin.com/in/krishna-saini-b07a2b294/?isSelfProfile=true)
 
