@@ -29,3 +29,4 @@ Most resume tools give a vague score. This project gives **answers you can act o
 |---|---|
 | 📄 **Resume parsing** | Reads PDF, DOCX, and TXT resumes |
 | 🧾 **Job description parsing** | Extracts required skills from any pasted JD |
+| 🧠 **Semantic skill matching** | Understands that "ML" ≈ "Machine Learning" using embeddings, not just keywords |
