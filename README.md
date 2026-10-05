@@ -38,3 +38,20 @@ Most resume tools give a vague score. This project gives **answers you can act o
 | 💬 **AI career assistant** | RAG-powered chat over a career/learning knowledge base |
 | 📈 **Progress tracking** | History of past analyses and improvement over time |
 | 📑 **Report export** | Download a final career-gap report |
+
+## 🏗️ Architecture
+
+```mermaid
+flowchart TD
+    U[User] --> F[Frontend: HTML / CSS / JS]
+    F --> API[FastAPI]
+    API --> AUTH[JWT Authentication]
+    AUTH --> SVC[Application Services]
+    SVC --> NLP[NLP: parsing, skill extraction, normalization]
+    SVC --> MATCH[Semantic Matching + Gap Analysis]
+    SVC --> RAG[RAG Engine]
+    MATCH --> LLM[LLM / Embedding Provider]
+    RAG --> LLM
+    RAG --> VDB[(Vector Search)]
+    SVC --> DB[(Database)]
+```
