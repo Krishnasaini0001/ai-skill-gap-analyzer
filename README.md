@@ -151,3 +151,19 @@ EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 > For PostgreSQL, change `DATABASE_URL` to
 > `postgresql+psycopg://user:password@localhost:5432/dbname`
 > and run `docker compose up -d db` to start the pgvector database.
+
+## 🔌 API Overview
+
+| Method | Endpoint | Description | Status |
+|---|---|---|---|
+| GET | `/health` | Health check | ✅ |
+| POST | `/auth/register` | Create an account | ✅ |
+| POST | `/auth/login` | Get a JWT access token | ✅ |
+| GET | `/auth/me` | Current user profile | ✅ |
+| POST | `/resume/upload` | Upload and parse a resume | 🔜 |
+| POST | `/jobs` | Save a job description | 🔜 |
+| POST | `/analysis` | Run a skill gap analysis | 🔜 |
+| GET | `/roadmap/{id}` | Personalized learning roadmap | 🔜 |
+| POST | `/interview/start` | Start a mock interview | 🔜 |
+| POST | `/chat` | Ask the AI career assistant | 🔜 |
+| GET | `/reports/{id}` | Export a career-gap report | 🔜 |
