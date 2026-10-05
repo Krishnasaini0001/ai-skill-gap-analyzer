@@ -55,3 +55,10 @@ flowchart TD
     RAG --> VDB[(Vector Search)]
     SVC --> DB[(Database)]
 ```
+
+**Design principles**
+
+- **Layered:** API routes stay thin, logic lives in `services/`, AI code lives in `ai/`.
+- **Provider-agnostic LLM layer:** swap OpenAI-compatible providers without touching business logic.
+- **Explainable first:** the match score comes from transparent rules and embeddings, not a black-box prompt. The LLM is used for *explaining and recommending*, not for inventing the score.
+- **Config via environment variables:** no secrets in code.
