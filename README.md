@@ -136,3 +136,14 @@ uvicorn app.main:app --reload
 ```
 
 Open **http://127.0.0.1:8000/docs** for the interactive API documentation.
+
+### Environment variables
+
+```env
+DATABASE_URL=sqlite:///./app.db
+SECRET_KEY=change-me
+ACCESS_TOKEN_EXPIRE_MINUTES=60
+LLM_API_KEY=
+LLM_MODEL=
+EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+```
