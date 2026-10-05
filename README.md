@@ -89,3 +89,25 @@ flowchart TD
 - [ ] **Phase 7:** RAG with vector search and career chat
 - [ ] **Phase 8:** Frontend dashboard and report export
 - [ ] **Phase 9:** Tests, logging, Docker, deployment
+
+## 📁 Project Structure
+
+```
+ai-skill-gap-analyzer/
+├── app/
+│   ├── main.py
+│   ├── api/          # Route handlers (auth, resume, jobs, analysis, ...)
+│   ├── core/         # Config, security, logging, exceptions
+│   ├── db/           # Engine, session, models, migrations
+│   ├── schemas/      # Pydantic request/response models
+│   ├── services/     # Parsing, matching, gap analysis, roadmap, ...
+│   ├── ai/           # LLM client, embeddings, prompts, RAG, agents
+│   ├── utils/        # File and text helpers
+│   └── tests/
+├── frontend/         # HTML / CSS / JS dashboard
+├── data/             # Knowledge base and sample resumes
+├── scripts/          # Seeding and document ingestion
+├── docker-compose.yml
+├── requirements.txt
+└── .env.example
+```
