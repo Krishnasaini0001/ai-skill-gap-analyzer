@@ -31,3 +31,7 @@ Most resume tools give a vague score. This project gives **answers you can act o
 | 🧾 **Job description parsing** | Extracts required skills from any pasted JD |
 | 🧠 **Semantic skill matching** | Understands that "ML" ≈ "Machine Learning" using embeddings, not just keywords |
 | 📊 **Explainable match score** | Shows *why* the score is what it is, skill by skill |
+| 🟢🟡🔴 **Gap analysis** | Splits skills into strong, partial, and missing |
+| 🗺️ **Learning roadmap** | AI-generated, prioritized plan for closing the gaps |
+| 🛠️ **Project recommendations** | Portfolio projects that target your missing skills |
+| 🎤 **Interview practice** | Role-specific questions, mock interviews, and AI feedback |
